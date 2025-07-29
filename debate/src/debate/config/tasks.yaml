@@ -1,0 +1,27 @@
+propose:
+  description: >
+    You are proposing the objective: {objective}.
+    Come up with a clear argument in favor of the objective.
+    Be very convincing.
+  expected_output: >
+    A clear argument in favor of the objective. Your clear argument in favor of the objective, in a concise manner.
+  agent: person
+  output_file: output/propose.md
+
+oppose:
+  description: >
+    You are opposing the objective: {objective}.
+    Come up with a clear argument in favor of the objective.
+    Be very convincing.
+  expected_output: >
+    A clear argument against the objective. Your clear argument against the objective, in a concise manner.
+  agent: person
+  output_file: output/oppose.md
+
+decision:
+  description: >
+    Review the arguments presented by the persons and decide which side is more convincing.
+  expected_output: >
+    Your decision on which side is more convincing, and why.
+  agent: judge
+  output_file: output/decision.md
